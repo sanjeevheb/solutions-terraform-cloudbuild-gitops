@@ -11,7 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+#just added a comment to do a commit and trigger a cloud build
 
 locals {
   network = "${element(split("-", var.subnet), 0)}"
